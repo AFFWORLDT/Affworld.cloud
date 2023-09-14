@@ -1,0 +1,49 @@
+.main-div{
+    height: 90vh;
+    background: url('../Components/FirstSection/firstsection1.png');
+    background-repeat: no-repeat;
+    background-size:80vw 90vh;
+    background-position: center;
+}
+.signup{
+    transition: 0.2s all;
+}
+.signup:hover{
+    background-color: rgba(164, 218, 241, 0.374);
+    transform: scale(1.1);
+    transition: 0.2s all;
+}
+.cards{
+    min-width: 15vw;
+    background-color: white;
+    border:2px solid rgba(198, 193, 193, 0.489);
+    box-shadow: 8px 8px 6px 2px rgb(227, 219, 219);
+}
+@media only screen and (min-width: 900px) {
+    .mobile-view{
+        display: none;
+    }
+    
+  }
+@media only screen and (max-width: 900px) {
+    .dekstop-view{
+        display: none;
+    }
+    .cards{
+        width:300px;
+        background-color: white;
+        border:2px solid rgba(198, 193, 193, 0.489);
+        box-shadow: 8px 8px 6px 2px rgb(227, 219, 219);
+    }
+    .heading-text{
+        font-size: 25px;
+        margin-top: 70px;
+    }
+    .signup{
+        padding: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+  }
+
+ 
